@@ -1,0 +1,19 @@
+user_input_1=int(input("Enter number 1: "))
+user_input_2=int(input("Enter number 2 : "))
+user_input_3=int(input("Enter number 3 : "))
+user_input_4=int(input("Enter number 4 : "))
+user_input_5=int(input("Enter number 5 : "))
+all_numbers = [user_input_1, user_input_2, user_input_3,user_input_4,user_input_5 ] # CONVERTS THE USER INPUT INTO A LIST
+def average_cal():
+  return sum(all_numbers)/ len(all_numbers) #CLACULATES THE AVERAGE
+ 
+ 
+def max_cal():
+   return max(all_numbers)
+def min_cal():
+    return min(all_numbers)
+    
+print("----Your Results----")
+print("This is your average:  ", average_cal())
+print("This is your maximum number: ", max_cal())
+print("This is your minimum number: ", min_cal())
