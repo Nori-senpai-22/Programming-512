@@ -52,6 +52,8 @@ class Novel(Book):
         # This constructor overrides the Book class constructor,
         # so title, author, and price are NOT initialized here
         self.category = category  # Category of the novel (e.g., Fiction, Romance)
+    def get_category(self):
+        return self.category
 
 
 # Create an object of the Novel class with category "Fiction"
@@ -65,3 +67,4 @@ novel1.set_price(450)
 # Print novel details using inherited accessor methods
 print(novel1.get_author())    # Outputs: April Moon
 print(novel1.category)        # Outputs: Fiction
+print(novel1.catgory())
