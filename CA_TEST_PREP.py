@@ -260,8 +260,12 @@ bob = StudentRecord("Bob", marks["Bob"])
 
 print(alice.name, "Average:", alice.average())
 print(bob.name, "Average:", bob.average())
-
-
+#================
+# OUTPUT
+#================
+#Unique marks: {96, 70, 75, 80, 85, 88, 90, 92, 95}
+#Alice Average: 87.66666666666667
+#Bob Average: 75.0
 
 
 
