@@ -260,3 +260,65 @@ bob = StudentRecord("Bob", marks["Bob"])
 
 print(alice.name, "Average:", alice.average())
 print(bob.name, "Average:", bob.average())
+
+
+
+
+
+
+# ================================
+# ACTIVITIES: CHAPTER 1, 2, AND 3
+# ================================
+
+# ----------------
+# EASY LEVEL
+# ----------------
+
+# 1. Create a list of 5 fruits. Print the second fruit.
+# 2. Create a tuple of 3 city names. Unpack them into 3 variables and print each one.
+# 3. Given the list numbers = [1, 2, 3, 4, 5],
+#    replace the third element with 99 and print the new list.
+# 4. Check if "banana" exists in the list fruits = ["apple", "banana", "cherry"].
+# 5. Create a set of numbers {1, 2, 2, 3, 4}. Print the set and explain why duplicates are removed.
+
+# ----------------
+# MEDIUM LEVEL
+# ----------------
+
+# 6. Create a dictionary called "student" with keys: "name", "age", and "marks".
+#    Print only the values of the dictionary.
+# 7. Given colors = ["red", "blue", "green", "yellow"],
+#    print the last two colors using slicing.
+# 8. Write a loop that prints each key and value from the dictionary:
+#    car = {"brand": "Toyota", "year": 2020, "color": "white"}
+# 9. Create two sets: a = {1, 2, 3}, b = {3, 4, 5}.
+#    Print their union, intersection, and difference.
+# 10. Create a 2D list for exam scores of 3 students (2 subjects each).
+#     Print the second subject score of the first student.
+
+# ----------------
+# ADVANCED LEVEL
+# ----------------
+
+# 11. Write a class "Book" with attributes "title" and "author".
+#     Create an object and print a message like: "The book <title> was written by <author>".
+# 12. Extend the class "Book" by creating a subclass "EBook" with an extra attribute "filesize".
+#     Create an object and print its details.
+# 13. Create a dictionary where the key is a student's name and the value is a list of their marks.
+#     Write code to calculate and print each student’s average.
+# 14. Write a program that takes two lists:
+#     list1 = [1, 2, 3, 4], list2 = [3, 4, 5, 6].
+#     Print numbers that are in one list but not both (symmetric difference).
+# 15. Write a class "BankAccount" with private attribute "__balance".
+#     Add methods to deposit, withdraw, and check balance.
+#     Create an object and test all methods.
+# 16. Create two classes "Dog" and "Cat" with a method "sound()".
+#     Make a list containing both objects and use a loop to call sound() for each (demonstrating polymorphism).
+# 17. Create a program that:
+#     - Stores a list of students (list)
+#     - Stores the subjects offered (tuple)
+#     - Stores marks of students (dictionary)
+#     - Finds all unique marks (set)
+#     - Uses a class "Student" with a method to calculate average marks.
+#     Test the class with at least 2 students.
+
